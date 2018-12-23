@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :assignments
+  root 'assignments#index'
   root 'pages#home'
   get 'pages/home'
   get 'pages/responses'
