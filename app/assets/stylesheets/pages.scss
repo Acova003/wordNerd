@@ -2,11 +2,10 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-body { background-image: image-url("nerd-word.png"); }
+.logo {
+  max-width: 600px;
+}
 
-<div class="input-group">
-  <div class="input-group-prepend">
-    <span class="input-group-text">With textarea</span>
-  </div>
-  <textarea class="form-control" aria-label="With textarea"></textarea>
-</div>
+.post_tile {
+  background-color: yellow;
+}
